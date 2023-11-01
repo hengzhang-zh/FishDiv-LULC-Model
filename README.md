@@ -1,5 +1,4 @@
-# **Program: Fish Diversity and Land Use Land Cover Modeling**
-
+# **Project: Fish Diversity and Land Use Land Cover Modeling**
 
 Author: Heng Zhang (Hank) at Swiss Federal Institute of Aquatic Science and Technology (EAWAG/ETH) & University of Zurich (UZH)
 
@@ -8,11 +7,9 @@ Contact: heng.zhang@eawag.ch; hengzhang.zhh@gmail.com
 Date: 11/01/2023
 
 
-
 # **Abstract**
 
 Freshwater biodiversity is critically affected by human modifications of terrestrial land use and land cover (LULC). Yet, knowledge of the spatial extent and magnitude of LULC-aquatic biodiversity linkages is still surprisingly limited, impeding the implementation of optimal management strategies. Here, we compiled fish diversity data across a 160,000-km2 subtropical river catchment in Thailand characterized by exceptional biodiversity yet intense anthropogenic alterations, and attributed fish species richness and community composition to contemporary terrestrial LULC across the catchment. We estimated a spatial range of LULC effects extending up to about 20 km upstream from sampling sites, and explained nearly 60 % of the variance in the observed species richness, associated with major LULC categories including croplands, forest, and urban areas. We find that integrating both spatial range and magnitudes of LULC effects is needed to accurately predict fish species richness. Further, projected LULC changes showcase future gains and losses of fish species richness across the river network and offer a scalable basis for riverine biodiversity conservation and land management, allowing for potential mitigation of biodiversity loss in highly diverse yet data-deficient tropical to sub-tropical riverine habitats.
-
 
 
 # **Platform and Packages**
@@ -22,7 +19,6 @@ This FishDiv-LULC modeling project was programmed with Python and CUDA for GPU c
 numpy, pandas, gdal, pycuda, pillow (PIL), scikit-learn, scipy
 
 For species-level modeling, we would recommend using the synthetic minority oversampling technique (SMOTE) to obtain class-balanced samples to fit the model. So, please install imbalanced-learn module before running the species-level model. 
-
 
 
 # **Code and Data**
@@ -44,16 +40,10 @@ Python and CUDA codes for catchment computing, FishDiv-LULC model are in the "co
 All python functions and CUDA kernel functions are in the "src" folder. 
 
 
-
 eDNA-derived fish diversity (including presence/absence for four fish species as a demo) together with sampling site coordinates and river discharge are in the "data/eDNA" folder. You may find HydroSHEDS flow direction map, flow accumulation map, elevation map, and interpolated river discharge for major river channels in the "data/RS/catch_data" folder. Lastly, the land cover map we used in this study (European Space Agency Climate Change Initiative (ESA CCI) land cover) together with recoding table are in the "data/RS/land_cover" folder. 
-
 
 
 # **Reference**
 
 H. Zhang, R. Blackman, R. Furrer, M. Osathanunkul, J. Brantschen, C. Di Muri, L. R. Harper, B. Hänfling, P. Niklaus, L. Pellissier, M. Schaepman, S. Zong, F. Altermatt*, 2023, Terrestrial land cover shapes fish diversity in major subtropical rivers. 
 BioRxiv Link: 
-
-
-
-
