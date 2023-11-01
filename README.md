@@ -25,7 +25,7 @@ For species-level modeling, we would recommend using the synthetic minority over
 
 # **Code and Data**
 
-Python and CUDA codes for catchment computing and FishDiv-LULC model are in the "code" folder. These codes can be executed in the following sequence. 
+Python and CUDA codes for catchment computing and FishDiv-LULC model are in the "code" folder. These codes can be executed in the following order. 
 
 01_calc_catchment_HS.py: This code calculates the catchment for sampling sites, using HydroSHEDS flow direction map in this case. NVIDIA GPU is needed. 
 
