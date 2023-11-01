@@ -1,8 +1,10 @@
 # **Project: Fish Diversity and Land Use Land Cover Modeling**
 
-Author: Heng Zhang (Hank) at Swiss Federal Institute of Aquatic Science and Technology (EAWAG/ETH) & University of Zurich (UZH)
+Author: Heng Zhang (Hank) 
 
-Contact: heng.zhang@eawag.ch; hengzhang.zhh@gmail.com
+Affiliation: Swiss Federal Institute of Aquatic Science and Technology (EAWAG/ETH) & University of Zurich (UZH)
+
+Email: heng.zhang@eawag.ch; hengzhang.zhh@gmail.com
 
 Date: 11/01/2023
 
