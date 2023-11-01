@@ -18,9 +18,9 @@ Freshwater biodiversity is critically affected by human modifications of terrest
 
 This FishDiv-LULC modeling project was programmed with Python and CUDA for GPU computing. If you would like to run the program on CPU (can be time-consuming) or AMD GPU, you may translate the code to C++/OpenCL (please also inform us). Please make sure that you have already installed NVIDIA CUDA computing environment. We recommend using Anaconda python distribution. Please make sure that the following modules have been successfully installed: 
 
-numpy, pandas, gdal, pycuda, pillow (PIL), scikit-learn, scipy
+_numpy, pandas, gdal, pycuda, pillow (PIL), scikit-learn, scipy_
 
-For species-level modeling, we would recommend using the synthetic minority oversampling technique (SMOTE) to obtain class-balanced samples to fit the model. So, please install imbalanced-learn module before running the species-level model. 
+For species-level modeling, we would recommend using the synthetic minority oversampling technique (SMOTE) to obtain class-balanced samples to fit the model. So, please install _imbalanced-learn_ module before running the species-level model. 
 
 
 # **Code and Data**
