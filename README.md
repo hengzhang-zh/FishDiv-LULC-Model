@@ -39,7 +39,7 @@ Python and CUDA codes for catchment computing and FishDiv-LULC model are in the 
 
 06_pred_river_species_p_a.py: This code predicts distribution/habitat of fish species in major river channels. The output is a csv file showing presence/absence of each fish species with indices of major river channel pixels in the first two columns (to save space on the disc). You may need to covert the csv file to distribution maps in further steps. NVIDIA GPU is needed. 
 
-All python functions and CUDA kernel functions are in the "src" folder. 
+All python functions and CUDA kernel functions are in the "code/src" folder. 
 
 
 eDNA-derived fish diversity (including presence/absence for four fish species as a demo) together with sampling site coordinates and river discharge are in the "data/eDNA" folder. You may find HydroSHEDS flow direction map, flow accumulation map, elevation map, and interpolated river discharge for major river channels in the "data/RS/catch_data" folder. Lastly, the land cover map we used in this study (European Space Agency Climate Change Initiative (ESA CCI) land cover) together with recoding table are in the "data/RS/land_cover" folder. 
