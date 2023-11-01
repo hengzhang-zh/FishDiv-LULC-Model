@@ -1,10 +1,10 @@
 # **Project: Fish Diversity and Land Use Land Cover Modeling**
 
-Author: Heng Zhang (Hank) 
+Author: Heng Zhang (Hank) & [Prof. Florian Altermatt Lab](https://www.altermattlab.ch/)
 
 Affiliation: Swiss Federal Institute of Aquatic Science and Technology (EAWAG/ETH) & University of Zurich (UZH)
 
-Email: heng.zhang@eawag.ch; hengzhang.zhh@gmail.com
+Email: heng.zhang@eawag.ch
 
 Date: 11/01/2023
 
