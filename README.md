@@ -27,17 +27,17 @@ For species-level modeling, we would recommend using the synthetic minority over
 
 Python and CUDA codes for catchment computing and FishDiv-LULC model are in the "code" folder. These codes can be executed in the following order. 
 
-01_calc_catchment_HS.py: This code calculates the catchment for sampling sites, using HydroSHEDS flow direction map in this case. NVIDIA GPU is needed. 
+**01_calc_catchment_HS.py**: This code calculates the catchment for sampling sites, using HydroSHEDS flow direction map in this case. NVIDIA GPU is needed. 
 
-02_estimate_LULC_effect_MLE.py: This code estimates the spatial range and magnitude of terrestrial LULC effects on fish species richness using maximum likelihood estimation (MLE). Only CPU is needed. 
+**02_estimate_LULC_effect_MLE.py**: This code estimates the spatial range and magnitude of terrestrial LULC effects on fish species richness using maximum likelihood estimation (MLE). Only CPU is needed. 
 
-03_estimate_LULC_effect_species_level_MLE.py: This code estimates the spatial range and magnitude of terrestrial LULC effects on fish species/habitat distribution based on species-level modeling. The associated LULC type for fish species was also determined with this species-level modeling approach. Only CPU is needed. 
+**03_estimate_LULC_effect_species_level_MLE.py**: This code estimates the spatial range and magnitude of terrestrial LULC effects on fish species/habitat distribution based on species-level modeling. The associated LULC type for fish species was also determined with this species-level modeling approach. Only CPU is needed. 
 
-04_calc_LULC_effect_map.py: This code calculates and produces a map of terrestrial LULC effect, based on flow direction, flow accumulation maps and the estimated optimal parameters from the above step. NVIDIA GPU is needed. 
+**04_calc_LULC_effect_map.py**: This code calculates and produces a map of terrestrial LULC effect, based on flow direction, flow accumulation maps and the estimated optimal parameters from the above step. NVIDIA GPU is needed. 
 
-05_pred_river_biodiv_map.py: This code projects riverine fish species richness in major river channels, using flow direction, flow accumulation maps and the estimated optimal parameters. NVIDIA GPU is needed. 
+**05_pred_river_biodiv_map.py**: This code projects riverine fish species richness in major river channels, using flow direction, flow accumulation maps and the estimated optimal parameters. NVIDIA GPU is needed. 
 
-06_pred_river_species_p_a.py: This code predicts distribution/habitat of fish species in major river channels. The output is a csv file showing presence/absence of each fish species with indices of major river channel pixels in the first two columns (to save space on the disc). You may need to covert the csv file to distribution maps in further steps. NVIDIA GPU is needed. 
+**06_pred_river_species_p_a.py**: This code predicts distribution/habitat of fish species in major river channels. The output is a csv file showing presence/absence of each fish species with indices of major river channel pixels in the first two columns (to save space on the disc). You may need to covert the csv file to distribution maps in further steps. NVIDIA GPU is needed. 
 
 All python functions and CUDA kernel functions are in the "code/src" folder. 
 
