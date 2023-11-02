@@ -1,6 +1,6 @@
 # **Project: Fish Diversity and Land Use Land Cover Modeling**
 
-Authors: Heng Zhang (Hank), Reinhard Furrer, Pascal Niklaus, Florian Altermatt, etc. [Altermatt Lab](https://www.altermattlab.ch/)
+Authors: Heng Zhang (Hank), Reinhard Furrer, Pascal Niklaus, Florian Altermatt, etc. 
 
 Affiliations: University of Zurich (UZH) & Swiss Federal Institute of Aquatic Science and Technology (EAWAG / ETH Domain)
 
