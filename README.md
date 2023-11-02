@@ -1,12 +1,12 @@
 # **Project: Fish Diversity and Land Use Land Cover Modeling**
 
-Authors: Heng Zhang (Hank), Reinhard Furrer, Pascal Niklaus, Florian Altermatt, etc. 
+**Authors**: Heng Zhang (Hank), Reinhard Furrer, Pascal Niklaus, Florian Altermatt, etc. 
 
-Affiliations: University of Zurich (UZH) & Swiss Federal Institute of Aquatic Science and Technology (EAWAG / ETH Domain)
+**Affiliations**: University of Zurich (UZH) & Swiss Federal Institute of Aquatic Science and Technology (EAWAG / ETH Domain)
 
-Email: heng.zhang@eawag.ch
+**Email**: heng.zhang@eawag.ch
 
-Date: 11/01/2023
+**Date**: 11/01/2023
 
 
 # **Abstract**
@@ -42,7 +42,7 @@ Python and CUDA codes for catchment computing and FishDiv-LULC model are in the 
 All python functions and CUDA kernel functions are in the "code/src" folder. 
 
 
-eDNA-derived fish diversity (including presence/absence for four fish species as a demo) together with sampling site coordinates and river discharge are in the "data/eDNA" folder. You may find HydroSHEDS flow direction map, flow accumulation map, elevation map, and interpolated river discharge for major river channels in the "data/RS/catch_data" folder. Lastly, the land cover map we used in this study (European Space Agency Climate Change Initiative (ESA CCI) land cover) together with recoding table are in the "data/RS/land_cover" folder. 
+eDNA-derived fish diversity (including presence/absence for four fish species as a demo) together with sampling site coordinates and river discharge are in the "data/eDNA" folder, which was contributed by Rosetta Blackman. You may find HydroSHEDS flow direction map, flow accumulation map, elevation map, and interpolated river discharge for major river channels in the "data/RS/catch_data" folder. Lastly, the land cover map we used in this study (European Space Agency Climate Change Initiative (ESA CCI) land cover) together with recoding table are in the "data/RS/land_cover" folder. 
 
 
 # **Reference**
