@@ -47,5 +47,5 @@ eDNA-derived fish diversity (including presence/absence for four fish species as
 
 # **Reference**
 
-H. Zhang, R. Blackman, R. Furrer, M. Osathanunkul, J. Brantschen, C. Di Muri, L. R. Harper, B. Hänfling, P. Niklaus, L. Pellissier, M. Schaepman, S. Zong, F. Altermatt*, 2023, Terrestrial land cover shapes fish diversity in major subtropical rivers. 
+H. Zhang, R. Blackman, R. Furrer, M. Osathanunkul, J. Brantschen, C. Di Muri, L. Harper, B. Hänfling, P. Niklaus, L. Pellissier, M. Schaepman, S. Zong, F. Altermatt*, 2023, Terrestrial land cover shapes fish diversity in major subtropical rivers. 
 BioRxiv Link: 
