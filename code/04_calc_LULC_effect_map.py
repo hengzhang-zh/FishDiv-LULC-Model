@@ -3,11 +3,11 @@
 Created on Sat Mar 11 13:33:46 2023
 
 @author: Heng Zhang (heng.zhang@eawag.ch; hengzhang.zhh@gmail.com) at Prof. Florian Altermatt Lab (https://www.altermattlab.ch/)
-@Swiss Federal Institute of Aquatic Science and Technology (EAWAG / ETH) & University of Zurich (UZH). 
+@Swiss Federal Institute of Aquatic Science and Technology (EAWAG / ETH Domain) & University of Zurich (UZH). 
 @Please cite the paper below when using any part of this code/project. 
 
 Heng Zhang, et al., Terrestrial land cover shapes fish diversity across a major subtropical basin. 
-BioRxiv link: 
+BioRxiv link: https://doi.org/10.1101/2023.10.30.564688
     
 """
 
